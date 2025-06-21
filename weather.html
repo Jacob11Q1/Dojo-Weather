@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="./style-weather.css">
+</head>
+<body>
+
+    <nav class="weather">
+        <h1 class="dojo">Dojo Weather</h1>
+        <div class="city">
+            <h2 id="clickme" onclick="Showalert(this)">Burbank</h2>
+            <h2 id="clickme" onclick="Showalert(this)">Chicago</h2>
+            <h2 id="clickme" onclick="Showalert(this)">Dallas</h2>
+        </div>
+    </nav>
+
+    <main class="content">
+        <section class="items">
+            <h1 class="san">San Jose</h1>
+            <div class="degree">
+                <h3>show temperature in</h3>
+                <select name="temp" id="temp"  onchange="changenumbers()">
+                    <option value="c">°C</option>
+                    <option value="f">°F</option>
+                </select>
+            </div>
+        </section>
+        <hr class="line">
+        <section class="inside">
+            <div class="today">
+                <h2>Today</h2>
+                <img src="./images/some_clouds.png" alt="Rainy Clouds" class="image">
+                <h3 class="rain">some rain</h3>
+                <div class="numbers">
+                    <h4 class="temp-convert">24°</h4>
+                    <h4 class="temp-convert">18°</h4>
+                </div>
+            </div>
+            <div class="Tommorow">
+                <h2>Tommorow</h2>
+                <img src="./images/some_sun.png" alt="Sonny Days" class="image">
+                <h3 class="rain">some sun</h3>
+                <div class="numbers">
+                    <h4 class="temp-convert">27°</h4>
+                    <h4 class="temp-convert">19°</h4>
+                </div>
+            </div>
+            <div class="Friday">
+                <h2>Friday</h2>
+                <img src="./images/some_clouds.png" alt="Cloudy Days" class="image">
+                <h3 class="rain">some rain</h3>
+                <div class="numbers">
+                    <h4 class="temp-convert">21°</h4>
+                    <h4 class="temp-convert">16°</h4>
+                </div>
+            </div>
+            <div class="saturday">
+                <h2>saturday</h2>
+                <img src="./images/some_sun.png" alt="Sonny Days" class="image">
+                <h3 class="rain">some sun</h3>
+                <div class="numbers">
+                    <h4 class="temp-convert">26°</h4>
+                    <h4 class="temp-convert">21°</h4>
+                </div>
+            </div>
+        </section>
+
+        <footer class="foot">
+            <div class="leftnav">
+                <img src="./images/cookie.png" alt="Cookie Image">
+                <div class="midsection">
+                    <h1>Stop! Cookie Time</h1>
+                    <p>We use cookies (sadly not the edible ones)
+                        to personalize content and ads, to provide social media features
+                        and to analyse our traffic. <a href="#">Read More</a>
+                    </p>
+                </div>
+                <div class="btn">
+                    <button class="button" onclick="removeItems()">I Accept</button>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="./script-weather.js"></script>
+</body>
+</html>

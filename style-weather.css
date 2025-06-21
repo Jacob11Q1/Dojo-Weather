@@ -1,0 +1,240 @@
+.weather{
+    display: flex;
+    background-color: #9fc5f8;
+    color: #ffffff;
+    font-family: cursive;
+    justify-content: center;
+}
+
+.dojo{
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    position: relative;
+    left: 50px;
+}
+
+.city{
+    margin: 0 auto;
+    margin-left: 10px;
+    padding: 7px;
+    width: 500px;
+    gap: 40px;
+    display: flex;
+    cursor: pointer;
+}
+
+.content{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.items{
+    margin: 0 auto;
+    width: 700px;
+    display: flex;
+}
+
+.san{
+    position: relative;
+    right: 150px;
+    top: 15px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.degree{
+    margin: 0 auto;
+    width: 250px;
+    display: flex;
+    position: relative;
+    left: 250px;
+    top: 15px;
+    align-items: center;
+}
+
+.degree h3{
+    margin-right: 8px;
+}
+
+#temp{
+    border: 1.5px solid black;
+}
+
+.line{
+    border: 2px solid black;
+    box-shadow: 2px 1px rgb(29, 29, 29);
+}
+
+.inside{
+    margin: 0 auto;
+    margin-bottom: 8px;
+    width: 1000px;
+    padding: 7px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+}
+
+.today{
+    margin: 0 auto;
+    width: 220px;
+    position: relative;
+    right: 35px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+}
+
+.today h2{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 80px;
+    bottom: 4px;
+    align-items: center;
+}
+
+.image{
+    border-radius: 50%;
+    width: 150px;
+    position: relative;
+    left: 40px;
+}
+
+.rain{
+    position: relative;
+    left: 80px;
+    top: 15px;
+}
+
+.numbers{
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    right: 50px;
+    width: 100px;
+    padding-left: 10px;
+    gap: 100px;
+    font-size: 20px;
+    font-family: monospace;
+    color: #cf2b28;
+}
+
+.numbers :last-child{
+    color: #2b78e4;
+}
+
+.Tommorow{
+    width: 220px;
+    position: relative;
+    left: 5px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+}
+
+.Tommorow h2{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 50px;
+    bottom: 4px;
+    align-items: center;
+}
+
+.Friday{
+    width: 220px;
+    position: relative;
+    left: 15px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+}
+
+
+.Friday h2{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 80px;
+    bottom: 4px;
+    align-items: center;
+}
+
+.saturday{
+    width: 220px;
+    position: relative;
+    left: 30px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+}
+
+.saturday h2{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 65px;
+    bottom: 4px;
+    align-items: center;
+}
+
+.foot{
+    margin: 0 auto;
+    width: 1010px;
+    display: flex;
+    background-color: #eeeeee;
+    border: 3px solid black;
+    position: relative;
+    right: 10px;
+}
+
+.leftnav{
+    margin: 0 auto;
+    width: 400px;
+    position: relative;
+    right: 250px;
+    display: flex;
+}
+
+.leftnav img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 30px;
+    right: 20px;
+}
+
+.midsection{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+.midsection h1{
+    width: 400px;
+}
+
+.midsection p{
+    width: 500px;
+    font-size: 20px;
+}
+
+.btn{
+    margin: 0 auto;
+    width: 250px;
+    position: relative;
+    left: 300px;
+    top: 60px;
+}
+
+.button{
+    width: 80px;
+    height: 35px;
+    background-color: #9fc5f8;
+    color: #07090b;
+    border: 3px solid black;
+    box-shadow: 4px 3px black;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
